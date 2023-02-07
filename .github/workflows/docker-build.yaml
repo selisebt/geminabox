@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  scan:
+  build:
     name: Docker Build & Push
     uses: selisebt/workflows/.github/workflows/simeple-docker-build.yaml@main
     secrets: inherit
